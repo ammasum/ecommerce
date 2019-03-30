@@ -1,0 +1,200 @@
+/*------------------------
+    3. Slider Area CSS
+-------------------------*/
+/*slider animation css*/
+.hero-slider-content > *{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+.active .hero-slider-content > h2.slow-animation1,
+.active .hero-slider-content > h3.slow-animation1{
+    -webkit-animation: 600ms ease-in-out 0s normal none 1 running fadeInLeft;
+    animation: 600ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.active .hero-slider-content > h2.slow-animation2,
+.active .hero-slider-content > h3.slow-animation2{
+    -webkit-animation: 1100ms ease-in-out 0s normal none 1 running fadeInLeft;
+    animation: 1100ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.active .hero-slider-content > h4{
+    -webkit-animation: 1200ms ease-in-out 0s normal none 1 running fadeInLeft;
+    animation: 1200ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.active .hero-slider-content > h1{
+    -webkit-animation: 1400ms ease-in-out 0s normal none 1 running fadeInLeft;
+    animation: 1400ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.active .hero-slider-content > .slider-btn{
+    -webkit-animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+    animation: 1500ms ease-in-out 0s normal none 1 running fadeInLeft;
+}
+.active .hero-slider-content > p{
+    -webkit-animation: 1600ms ease-in-out 0s normal none 1 running zoomIn;
+    animation: 1600ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.active .slider-content-2 > h3,
+.active .slider-content-4 > h3{
+    -webkit-animation: 1200ms ease-in-out 0s normal none 1 running zoomIn;
+    animation: 1200ms ease-in-out 0s normal none 1 running zoomIn;
+}
+.slider-area {
+    background-image: url(/ecommerce/img/bg/bg-slide.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 620px;
+}
+.hero-slider {
+    margin-top: 18px;
+}
+.slider-area.slider-style-4 .hero-slider {
+    margin-top: 0;
+}
+.single-slider {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.hero-slider-content {
+    padding-left: 50px;
+}
+.hero-slider-content > p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.hero-slider-content > h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.hero-slider-content > h4 {
+    margin: 40px 0;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-slider-content > h1 {
+    margin: 18px 0 0;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.slider-btn > a {
+    font-size: 16px;
+    color: #ff6a00;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid #ff6a00;
+    border-radius: 3px;
+    display: inline-block;
+}
+.slider-btn > a:hover{
+    background: #ff6a00;
+    color: #fff;
+}
+.hero-slider .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: left;
+    padding: 0 30px;
+    z-index: 8;
+}
+.hero-slider .owl-dot {
+    display: inline-block;
+    height: 8px;
+    border-radius: 10px;
+    font-size: 0;
+    width: 8px;
+    margin: 0 4px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 8;
+    background: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.hero-slider .owl-dot:hover,
+.hero-slider .owl-dot.active {
+    background: #ff6a00;
+    width: 30px;
+}
+/*index-2 slider css*/
+.slider-btn.blue-btn > a{
+    border-color: #fff;
+    color: #fff;
+}
+.slider-btn.blue-btn > a:hover{
+    border-color: #613f99;
+    background: #613f99;
+    color: #fff;
+}
+.hero-slider.hero-slider-2 .owl-dot:hover,
+.hero-slider.hero-slider-2 .owl-dot.active {
+    background: #613f99;
+    width: 30px;
+}
+/*index 3 slider*/
+.slider-area.slider-style-3 {
+    min-height: 0;
+}
+.hero-slider-content > h3 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.hero-slider-content > h3 > span.sl-text-color{
+    color: #e40046;
+}
+.hero-slider-content > p.small-text1 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 30px 0 0;
+}
+.hero-slider-content > p.small-text2 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin: 10px 0 0;
+}
+.slider-btn.white-btn > a{
+    border-color: #e40046;
+    color: #e40046;
+}
+.slider-btn.white-btn > a:hover{
+    border-color: #fff;
+    background: #fff;
+    color: #333;
+}
+.hero-slider.hero-slider-3 .owl-dot:hover,
+.hero-slider.hero-slider-3 .owl-dot.active {
+    background: #e40046;
+    width: 30px;
+}
